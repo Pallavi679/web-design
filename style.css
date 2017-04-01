@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway';
+}
+
+#header {
+    background: url(header4.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+    position: relative;
+}
+
+#nav {
+    width: 100%;
+    position: fixed;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(255,255,255,0.15);
+    background-color: #9E9E9E;
+    opacity: 0;
+}
+
+#right-nav {
+    float: right;
+}
+
+#right-nav a {
+    display: inline-block;
+    padding: 2em 3em;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#right-nav a:hover {
+    background: rgba(250,255,255,0.15);
+}
+
+#nav #right-nav a:last-child {
+    font-size: 1em;
+    padding: 2em 3em;
+    height: 19px;
+}
+
+#header-text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    top: 50%;
+    font-size: 4em;
+}
+
+#header-background {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.content-container {
+    background-color: #fbfefc;
+    text-align: center;
+    color: black;
+    margin: 0 2em;
+    margin-bottom: 300px;
+}
+
+.content-container h1 {
+    margin: auto;
+    padding: 1.5em 0em;
+    width: 50%
+}
+
+.mission-box div {
+    font-size: 50px;
+    padding: 0.5em;
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+.mission-box {
+    margin: auto;
+    width: 40%;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 1em;
+}
+
+.mission-box p {
+    padding: 2em;
+    margin: 0;
+}
+
+.mission-box h1 {
+    padding: 1em;
+}
+
+#footer {
+    margin-top: 3em;
+    text-align: center;
+    background: #edeff2;
+    padding: 2em;
+    line-height: 250%;
+    color: #4c4c4c;
+    font-size: 0.85em;
+}
